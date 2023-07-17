@@ -20,9 +20,9 @@ npm run build
 npm run test:e2e
 ```
 
-### Lints and fixes files
+### npm install pinia
 ```
-npm run lint
+ npm install pinia
 ```
 
 ### Customize configuration

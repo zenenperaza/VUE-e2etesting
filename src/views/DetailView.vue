@@ -2,7 +2,7 @@
 <div> 
     <h1>{{ post.title }}</h1>
     <p>{{ post.body }}</p>
-    <router-link to="/">Volver atrás</router-link>
+    <router-link to="/" class="link">Volver atrás</router-link>
 </div>
 </template>
 

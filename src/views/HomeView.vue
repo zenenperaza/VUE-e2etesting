@@ -2,7 +2,7 @@
 <div>
     <h1>Listado de Posts</h1> 
     <ul>
-        <li v-for="post in posts" key="post.id">
+        <li v-for="post in posts" :key="post.id">
         <router-link :to="{name: 'detail', params: {id: post.id}}">{{ post.title }}</router-link>
         </li>
     </ul>

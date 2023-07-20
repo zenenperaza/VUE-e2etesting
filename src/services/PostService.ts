@@ -23,7 +23,7 @@ class PostService {
             const url = 'https://jsonplaceholder.typicode.com/posts'
             const response = await fetch(url)
             const json = await response.json()
-            this.post.value = await json
+            this.posts.value = await json
         } catch (error) {
             console.log(error);
             
